@@ -16,5 +16,5 @@ if(score<=80||score<=100){
     grade="F"
     console.log(`Grade is ${grade}`);
 }else{
-    console.log("Invalid input")
+    console.log("Invalid input");
 }
