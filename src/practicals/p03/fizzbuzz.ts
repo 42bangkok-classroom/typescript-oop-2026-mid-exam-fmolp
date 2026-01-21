@@ -1,5 +1,5 @@
 const input=Number(process.argv[2]);
-for(let i=0;i<=input;i++){
+for(let i=1;i<=input;i++){
     if(i%3===0&&i%5===0){
         console.log("FizzBuzz");
     }else if(i%3===0){

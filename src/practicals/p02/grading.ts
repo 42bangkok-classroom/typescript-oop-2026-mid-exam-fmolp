@@ -14,7 +14,7 @@ if(isNaN(score)){
 }else if(score>=50&&score<60){
     grade="D";
     console.log(`Grade is ${grade}`);
-}else if(score>=0&&score<40){
+}else if(score>=0&&score<50){
     grade="F"
     console.log(`Grade is ${grade}`);
 }else{
